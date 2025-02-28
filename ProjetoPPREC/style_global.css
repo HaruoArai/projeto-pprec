@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(241, 241, 241);
+    color: rgb(224, 163, 50);
+    font: normal 20pt Arial;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+    background-image: url('./imagens/PGE_foto.jpg');
+    background-size: cover;
+    background-position: 100% 65%;
+    color: white;
+    text-align: left;
+    padding: 80px 40px 30px 300px;
+    border-bottom: 5px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 4, 41, 0.7);
+    z-index: 1;
+}
+
+header img {
+    z-index: 2;
+}
+
+header h2 {
+    position: relative;
+    z-index: 2;
+    font-size: 24px;
+    margin: 0;
+}
+
+header h2 span {
+    color: orange;
+    display: block;
+}
+
+header .nav-links {
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 70px;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+header .nav-links a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 28px;
+}
+
+.content {
+    flex: 1;
+    padding: 80px;
+    text-align: center;
+    background-color: white;
+    margin: 50px auto;  
+    width: 75%;
+    border: 20px solid #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    position: relative;
+    background-image: url('./imagens/PGE_foto.jpg');
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 4, 41, 0.7);
+    z-index: 1;
+}
+
+.footer-bar {
+    background-color: #00264d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+    position: relative;
+    z-index: 2;
+    gap: 250px;
+}
+
+.footer-bar .left {
+    text-align: left;
+}
+
+.footer-bar .left span {
+    display: block;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.footer-bar div {
+    font: normal 11pt Arial;
+    text-align: center;
+}
+
+.divider {
+    color: white;
+    font-size: 14pt;
+}

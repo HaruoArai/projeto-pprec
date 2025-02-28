@@ -1,0 +1,19 @@
+.contacts {
+    margin-top: 90px;
+    text-align: left;
+    font: normal 20px Arial;
+    /* font-family: '', Arial, sans-serif; */
+   
+}
+.contacts h3 {
+    color: #004d80;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+}
+.contacts p {
+    color: black;
+    line-height: 1.5;
+    margin-top: 10px;
+}

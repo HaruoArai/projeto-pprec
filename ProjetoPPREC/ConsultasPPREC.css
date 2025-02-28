@@ -1,0 +1,24 @@
+.content #app .filtros {
+    margin-top: 20px; /* Reduzindo a margem superior */
+    padding: 20px; /* Adicionando padding para melhor espaçamento interno */
+}
+
+.content #app #res {
+    padding: 15px 20px; /* Reduzindo o padding horizontal para melhor ajuste */
+    font-size: 20px; /* Ajustando o tamanho da fonte para melhor legibilidade */
+    width: auto; /* Permitindo que a largura se ajuste ao conteúdo */    
+    margin: 20px auto;
+    color: #00264d;
+    background-color: rgba(96, 118, 219, 0.479);
+    border-radius: 10px; /* Reduzindo o raio da borda para um visual mais suave */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajustando a sombra para ser mais sutil */
+    display: block;
+}
+
+.v-btn {
+    background-color: #002c50 !important;
+    color: white !important;
+    margin-bottom: 30px; /* Reduzindo a margem inferior */
+    padding: 8px 16px !important; /* Ajustando o padding do botão */
+}
