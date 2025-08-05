@@ -1,0 +1,60 @@
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.box {
+    width: 450px;
+    height: 400px;
+    background-color: #00264d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
+.box h3 {
+    margin: 0;
+    font-size: 22px;
+    color: orange;
+    transition: color 0.3s ease;
+}
+
+.box img {
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.box span {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #004080;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    border-radius: 15px;
+}
+
+.box:hover h3,
+.box:hover span {
+    color: rgb(255, 230, 0);
+}
+
+.box:hover img {
+    transform: scale(1.1);
+}
