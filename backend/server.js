@@ -57,9 +57,9 @@
         }
     });
 
-    // Endpoint /precatorios - Leitura do Arquivo Precatórios.xlsx
+    // Endpoint /precatorios - Leitura do Arquivo Precatorio.xlsx
     app.get("/precatorios", (req, res) => {
-        const filePath = path.join(__dirname, "Precatórios.xlsx"); // Caminho do arquivo Precatórios
+        const filePath = path.join(__dirname, "Precatorios.xlsx"); // Caminho do arquivo Precatórios
         const formattedData = readAndFormatExcel(filePath);
 
         if (formattedData) {
